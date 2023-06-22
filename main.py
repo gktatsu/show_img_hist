@@ -27,12 +27,12 @@ st.bar_chart(df_hist)
 color = st.radio(
     "choose R, G, or B",
     ('R', 'G', 'B'))
-if color == 'Red':
+if color == 'R':
     df_hist = pd.DataFrame(hist_red)
     st.bar_chart(df_hist)
-if color == 'Green':
+if color == 'G':
     df_hist = pd.DataFrame(hist_green)
     st.bar_chart(df_hist)
-if color == 'Blue':
+if color == 'B':
     df_hist = pd.DataFrame(hist_blue)
     st.bar_chart(df_hist)
